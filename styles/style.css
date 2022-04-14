@@ -27,13 +27,29 @@
          url('../fonts/oswald-v47-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
-  .header {
-      color: ;
-      background-color: #66D1FF;
+
+body {
+    color: #66D1FF;
+    font-family: 'Montserrat', sans-serif;
   }
 
-  .header-wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.header {
+  padding: 40px 0;
+  color: #fff;
+  background-color: #66D1FF;
+}
+
+.service-image {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-link {
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: inherit;
+    text-decoration: none;
+}
